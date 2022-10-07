@@ -1,8 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/ivanlopez.png";
 import { Component } from "react";
 import "./App.css";
-
+import Header from "./components/Header"
+import AboutMe from "./components/AboutMe"
+import WebPortfolio from "./components/WebPortfolio"
+import Footer from "./components/Footer"
 class App extends Component {
   constructor() {
     super();
@@ -10,11 +11,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div>
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </div>
-        <h1 className="text-3xl">Tokyo Based Web Creative</h1>
+      <div className="App grid grid-cols-1 grid-rows-4">
+        <Header/>
+        <AboutMe/>
+        <WebPortfolio/>
+        <Footer/>
       </div>
     );
   }

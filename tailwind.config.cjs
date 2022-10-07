@@ -4,7 +4,11 @@ module.exports = {
    "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'cutive': ['"Cutive Mono"', 'monospace'],
+        'emoji': ['"Noto Color Emoji"', 'sans-serif']
+      }},
   },
   plugins: [],
 }
