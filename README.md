@@ -1,2 +1,6 @@
 # Main Portfolio Site
-WIP
+## Technologies used:
+- React
+- Tailwind CSS
+- Vite
+- HTML/CSS/Javascript
